@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    background-color: #FF9800;
+}
+
+
+p {
+   padding: 3% 1%;
+    font-size: 17px;
+}
+.london, .paris, .tokyo {
+    width: 33.3%;
+    float: left;
+    padding: 1%;
+}
+
+.london img, .paris img, .tokyo img {
+    width: 45%;
+    float: left;
+    padding: 1% ;   
+}
+header h1, p {
+    padding: 1%;
+}
+@media screen and (max-width: 960px) {
+    .container {
+        width: 98%;
+    }
+    .london, .paris, .tokyo {
+        width: 100%;
+        padding: 1% 0;
+    }
+}
